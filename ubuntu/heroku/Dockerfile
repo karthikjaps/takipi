@@ -26,7 +26,7 @@ RUN cp -r takipi /opt
 ENV PATH $PATH:/opt/takipi/bin
 ENV TAKIPI_SERVICE_PARAMS --xmx=180M
 
-RUN /opt/takipi/etc/takipi-setup-secret-key S3875#YAFwDEGg5oSIU+TM#G0G7VATLOqJIKtAMy1MObfFINaQmVT5hGYLQ+cpPuq4=#87a1
+RUN /opt/takipi/etc/takipi-setup-secret-key S10337#r0jaoEz/YE19wq6C#n/wwe0sZcxGXRhSN2baCWry1LeYD9s98LOy4Cyble1Y=#47cc
 
 # Set server name
 RUN /opt/takipi/etc/takipi-setup-machine-name Chen-server-name
